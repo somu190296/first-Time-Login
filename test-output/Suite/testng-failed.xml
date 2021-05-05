@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="zipCode" value="000000"/>
+  <parameter name="city" value="america"/>
+  <parameter name="one" value="Portland"/>
+  <parameter name="cardType" value="VISA"/>
+  <parameter name="creditCardMonth" value="12"/>
+  <parameter name="addres" value="chennai"/>
+  <parameter name="creditCardYear" value="2022"/>
+  <parameter name="two" value="Berlin"/>
+  <parameter name="nameOnCard" value="somsundaram"/>
+  <parameter name="creditCardNumber" value="1234567890987654"/>
+  <parameter name="name" value="somu"/>
+  <parameter name="state" value="asiya"/>
+  <parameter name="departure" value="paris"/>
+  <test name="Test(failed)">
+    <parameter name="zipCode" value="000000"/>
+    <parameter name="city" value="america"/>
+    <parameter name="one" value="Portland"/>
+    <parameter name="cardType" value="VISA"/>
+    <parameter name="creditCardMonth" value="12"/>
+    <parameter name="addres" value="chennai"/>
+    <parameter name="creditCardYear" value="2022"/>
+    <parameter name="two" value="Berlin"/>
+    <parameter name="nameOnCard" value="somsundaram"/>
+    <parameter name="creditCardNumber" value="1234567890987654"/>
+    <parameter name="name" value="somu"/>
+    <parameter name="state" value="asiya"/>
+    <parameter name="departure" value="paris"/>
+    <classes>
+      <class name="org.demoblaze.DemoAccess">
+        <methods>
+          <include name="tc2" invocation-numbers="0"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- org.demoblaze.DemoAccess -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

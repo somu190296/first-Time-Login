@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21061" started-at="2021-05-04T04:10:50Z" finished-at="2021-05-04T04:11:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21061" started-at="2021-05-04T04:10:50Z" finished-at="2021-05-04T04:11:11Z">
+      <class name="org.reportclass.Adactinreportclss">
+        <test-method status="PASS" signature="beforesuit()[pri:0, instance:org.reportclass.Adactinreportclss@47c62251]" name="beforesuit" is-config="true" duration-ms="656" started-at="2021-05-04T09:40:49Z" finished-at="2021-05-04T09:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuit -->
+        <test-method status="PASS" signature="beforeCass()[pri:0, instance:org.reportclass.Adactinreportclss@47c62251]" name="beforeCass" is-config="true" duration-ms="17389" started-at="2021-05-04T09:40:50Z" finished-at="2021-05-04T09:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeCass -->
+        <test-method status="PASS" signature="tc0()[pri:0, instance:org.reportclass.Adactinreportclss@47c62251]" name="tc0" duration-ms="1412" started-at="2021-05-04T09:41:07Z" finished-at="2021-05-04T09:41:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc0 -->
+        <test-method status="PASS" signature="tc1()[pri:0, instance:org.reportclass.Adactinreportclss@47c62251]" name="tc1" duration-ms="1995" started-at="2021-05-04T09:41:09Z" finished-at="2021-05-04T09:41:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="afClas()[pri:0, instance:org.reportclass.Adactinreportclss@47c62251]" name="afClas" is-config="true" duration-ms="210" started-at="2021-05-04T09:41:11Z" finished-at="2021-05-04T09:41:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afClas -->
+        <test-method status="PASS" signature="afterSuit()[pri:0, instance:org.reportclass.Adactinreportclss@47c62251]" name="afterSuit" is-config="true" duration-ms="953" started-at="2021-05-04T09:41:11Z" finished-at="2021-05-04T09:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- org.reportclass.Adactinreportclss -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

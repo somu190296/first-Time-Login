@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="one" value="Portland"></parameter>
+  <parameter name="two" value="Berlin"></parameter>
+  <parameter name="name" value="somu"></parameter>
+  <parameter name="addres" value="chennai"></parameter>
+  <parameter name="city" value="america"></parameter>
+  <parameter name="state" value="asiya"></parameter>
+  <parameter name="zipCode" value="000000"></parameter>
+  <parameter name="cardType" value="VISA"></parameter>
+  <parameter name="creditCardNumber" value="1234567890987654"></parameter>
+  <parameter name="creditCardMonth" value="12"></parameter>
+  <parameter name="creditCardYear" value="2022"></parameter>
+  <parameter name="nameOnCard" value="somsundaram"></parameter>
+  <parameter name="departure" value="paris"></parameter>
+  
+    <classes>
+      <class name="org.demoblaze.DemoAccess"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
